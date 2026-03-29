@@ -29,8 +29,24 @@ with centerline follow<br>
 
 ---
 ## Part 2: 
+### A*  
+![A*nogvd](https://github.com/user-attachments/assets/dd3b8e42-ecf6-4c5f-96d8-dc6e25c660f2)<br>
+with center line follow<br>
+![A*gvd](https://github.com/user-attachments/assets/bd61de8c-672b-407d-831b-5e62e89ad748)<br>
+### Best First  
+![Besfirstnogvd](https://github.com/user-attachments/assets/f7e3ffdc-ab05-440e-8f01-d9eaa8705c4d)<br>
+with center line follow<br>
+![Bestfirstgvd](https://github.com/user-attachments/assets/51e22dc2-f08b-4911-9af9-c9468bd7b05d)<br>
+### BFS
+![BFSgvd](https://github.com/user-attachments/assets/1c3d9f55-db11-4980-ba64-081d1744632a)<br>
+### RRT*
+<img width="814" height="679" alt="rrt*nogvd3" src="https://github.com/user-attachments/assets/bd31ea05-1850-440e-bb58-28619087273b" /><br>
+with centerline follow<br>
+<img width="844" height="670" alt="rrt*gvd3" src="https://github.com/user-attachments/assets/52756160-0065-426f-842e-9716beb5e318" /><br>
 
-
+<p align="center">
+  <img width="483" height="551" alt="image" src="https://github.com/user-attachments/assets/4dec8303-94b2-4be5-9e9f-4a6032a552b7" />
+</p>
 ---
 
 ## Part 3
