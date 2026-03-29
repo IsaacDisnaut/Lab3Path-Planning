@@ -17,11 +17,13 @@ with centerline follow<br>
 <img width="1536" height="1165" alt="A*gvd" src="https://github.com/user-attachments/assets/23e8ab65-abf6-4aae-9912-58fd7ea02894" /><br><br>
 ### Best First  
 <img width="1536" height="1165" alt="Bestfirstnogvd" src="https://github.com/user-attachments/assets/cad41c63-2336-4ad2-9425-13a28a6a7ddb" /><br>
+with centerline follow<br>
 <img width="1536" height="1165" alt="Bestfirstgvd" src="https://github.com/user-attachments/assets/bce54d13-87b5-431d-8a5a-b19b4dea8f60" /><br><br>
 ### BFS
 <img width="1536" height="1165" alt="BFSnogvd" src="https://github.com/user-attachments/assets/395439e3-dfaf-434f-ac87-77547452f8da" /><br>
 ### RRT*
 <img width="844" height="670" alt="rrt*nogvd5" src="https://github.com/user-attachments/assets/d0a75586-a243-4bc8-a701-be96d8f705e5" /><br>
+with centerline follow<br>
 <img width="844" height="670" alt="rrt*gvd6" src="https://github.com/user-attachments/assets/0d7dfb05-ba08-47a7-b2bc-a9a70fab0251" /><br>
 <p align="center">
   <img width="490" height="561" alt="image" src="https://github.com/user-attachments/assets/09fd13e0-449c-4cb4-820f-858336ef5cc0" />
