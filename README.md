@@ -86,6 +86,7 @@ with centerline follow<br>
   <img width="474" height="186" alt="image" src="https://github.com/user-attachments/assets/f8672db7-1352-4c96-9e90-e6940317b5d3" />
 
 </p>
+
 ---
 
 ## Discussion (สรุปและอภิปรายผล)
