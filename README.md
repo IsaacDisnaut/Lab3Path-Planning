@@ -52,8 +52,40 @@ with centerline follow<br>
 ---
 
 ## Part 3
+### A*  
+<img width="1536" height="1165" alt="A*nogvd" src="https://github.com/user-attachments/assets/ce793824-ee6d-40d4-9ba4-c0401549e3ef" /><br>
 
+with centerline follow<br>
+<img width="1536" height="1165" alt="A*gvd" src="https://github.com/user-attachments/assets/69fb273a-e56d-4154-bf39-b66c432f3d0f" /><br><br>
 
+### Best First  
+<img width="1536" height="1165" alt="Bestfirstnogvd" src="https://github.com/user-attachments/assets/98a2d2a7-7e65-42f3-91cb-440efd5eae70" /><br>
+
+with centerline follow<br>
+<img width="1536" height="1165" alt="Bestfirstgvd" src="https://github.com/user-attachments/assets/9ba462ba-2263-48dd-98a7-c838246c8b35" /><br><br>
+
+### BFS
+<img width="1536" height="1165" alt="BFSnogvd" src="https://github.com/user-attachments/assets/a921f080-e1a4-47cc-b144-73b2c7c46fa9" /><br>
+
+### RRT*
+<img width="844" height="670" alt="rrt*nogvd" src="https://github.com/user-attachments/assets/302beebc-49b0-467b-9881-08e955793c74" /><br>
+
+with centerline follow<br>
+<img width="844" height="670" alt="rrt*gvd2" src="https://github.com/user-attachments/assets/a32c5cf1-52cd-41bb-a4f4-bc0fb192c4a6" /><br>
+
+<p align="center">
+  <img width="483" height="551" alt="image" src="https://github.com/user-attachments/assets/8a321b07-61ca-4ebb-8200-e8756b02c1fa" />
+</p>
+
+**Door cost =-5**<br>
+### A*
+<img width="1536" height="1165" alt="A*nogvdBP0DP5" src="https://github.com/user-attachments/assets/deb48318-303b-4ad9-9e5d-a905ef75fe8f" /><br>
+with centerline follow<br>
+<img width="1536" height="1165" alt="A*gvdBP0DP5" src="https://github.com/user-attachments/assets/9e3544c6-b9e4-4fd5-87ab-33be2757e488" /><br>
+<p align="center">
+  <img width="474" height="186" alt="image" src="https://github.com/user-attachments/assets/f8672db7-1352-4c96-9e90-e6940317b5d3" />
+
+</p>
 ---
 
-## 📊 Discussion (สรุปและอภิปรายผล)
+## Discussion (สรุปและอภิปรายผล)
