@@ -1,7 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/yCAbp7gK)
-# LAB3: Motion Planning
-
-# FRA532 Lab 3: Robot Path Planning 🤖
+# FRA532 Lab 3: Robot Path Planning 
 
 ## Algorithms Overview 
 * **BFS (Breadth-First Search):** อัลกอริทึมที่ค้นหาเส้นทางโดยกระจายตัวออกไปทุกทิศทางรอบๆ ตัวอย่างเท่าเทียมกัน การันตีว่าจะพบเส้นทางที่สั้นที่สุดเสมอ (ในกรณีที่ทุกก้าวมีต้นทุนเท่ากัน) แต่มักจะใช้เวลาและหน่วยความจำในการคำนวณสูง  
@@ -13,10 +11,21 @@
 ---
 
 ## Part 1
+### A*  
+<img width="1536" height="1165" alt="A*nogvd" src="https://github.com/user-attachments/assets/18f5a3b9-8843-4280-9a3e-a2390be886e9" /><br>
+with centerline follow<br>
+<img width="1536" height="1165" alt="A*gvd" src="https://github.com/user-attachments/assets/23e8ab65-abf6-4aae-9912-58fd7ea02894" /><br><br>
+### Best First  
+<img width="1536" height="1165" alt="Bestfirstnogvd" src="https://github.com/user-attachments/assets/cad41c63-2336-4ad2-9425-13a28a6a7ddb" /><br>
+<img width="1536" height="1165" alt="Bestfirstgvd" src="https://github.com/user-attachments/assets/bce54d13-87b5-431d-8a5a-b19b4dea8f60" /><br><>br
+### BFS
+<img width="1536" height="1165" alt="BFSnogvd" src="https://github.com/user-attachments/assets/395439e3-dfaf-434f-ac87-77547452f8da" /><br>
+### RRT*
+<img width="844" height="670" alt="rrt*nogvd5" src="https://github.com/user-attachments/assets/d0a75586-a243-4bc8-a701-be96d8f705e5" /><br>
+<img width="844" height="670" alt="rrt*gvd6" src="https://github.com/user-attachments/assets/0d7dfb05-ba08-47a7-b2bc-a9a70fab0251" /><br>
 
 
 ---
-
 ## Part 2: 
 
 
