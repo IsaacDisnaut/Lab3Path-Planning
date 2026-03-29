@@ -1,0 +1,41 @@
+# -------------------------
+# OS / Editor
+# -------------------------
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# -------------------------
+# Python / Cache
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Data / Videos / Large files
+# -------------------------
+# Video files
+*.mp4
+*.mov
+*.avi
+
+# Large database or temporary files
+*.db
+*.sqlite
+*.sqlite3
+
+# Any local dataset you don't want to push
+data/**/*.mp4
+data/**/*.avi
+
+# -------------------------
+# Others
+# -------------------------
+*.log
+*.tmp
+*.swp
