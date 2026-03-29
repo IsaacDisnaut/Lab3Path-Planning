@@ -23,7 +23,9 @@ with centerline follow<br>
 ### RRT*
 <img width="844" height="670" alt="rrt*nogvd5" src="https://github.com/user-attachments/assets/d0a75586-a243-4bc8-a701-be96d8f705e5" /><br>
 <img width="844" height="670" alt="rrt*gvd6" src="https://github.com/user-attachments/assets/0d7dfb05-ba08-47a7-b2bc-a9a70fab0251" /><br>
-
+<p align="center">
+  <img width="490" height="561" alt="image" src="https://github.com/user-attachments/assets/09fd13e0-449c-4cb4-820f-858336ef5cc0" />
+</p>
 
 ---
 ## Part 2: 
