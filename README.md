@@ -33,7 +33,7 @@ $$C(x_{new})=\min_{x_{near}\in X_{near}}\{C(x_{near})+c(x_{near},x_{new})\}$$
 ### Centerline Follow<br> 
 &emsp;เป็นการตีเส้นทางให้อยู่กึ่งกลางระหว่างสิ่งกีดขวาง (Clearance) เพื่อนำมาประยุกต์ใช้ร่วมกับอัลกอริทึมหลัก ช่วยให้หุ่นยนต์รักษาระยะห่างที่ปลอดภัยจากกำแพง ลดความเสี่ยงในการชนขอบประตูหรือสิ่งกีดขวาง<br><br>
 $$Cost = cost_{step}+(-Bonus*R_{norm})$$
-<br>$$R_{norm}=\frac{R-R_{min}}{R_{max}-R_{min}}$$
+<br><br>$$R_{norm}=\frac{R-R_{min}}{R_{max}-R_{min}}$$
 * **$Cost$**: ค่าcostรวมของแต่ละพิกเซล
 * **$cost_{step}$**:ค่าcost ในแต่ละการเดิน เช่น 1หรือ 1.414
 * **$Bonus$**: ค่าตัวคูณสำหรับลดค่าcost
@@ -47,7 +47,8 @@ $$Cost = cost_{step}+(-Bonus*R_{norm})$$
 ### A*  
 <img width="1536" height="1165" alt="A*nogvd" src="https://github.com/user-attachments/assets/18f5a3b9-8843-4280-9a3e-a2390be886e9" /><br>
 with centerline follow<br>
-![alt text](<data/datapart1/Map Navigation_screenshot_30.03.2026.png>)<br><br>
+<img width="1536" height="1165" alt="Map Navigation_screenshot_30 03 2026" src="https://github.com/user-attachments/assets/1a46b9dd-9159-49f4-819b-45ec94c06a9f" /><br><br>
+
 ### Best First  
 <img width="1536" height="1165" alt="Bestfirstnogvd" src="https://github.com/user-attachments/assets/cad41c63-2336-4ad2-9425-13a28a6a7ddb" /><br>
 with centerline follow<br>
