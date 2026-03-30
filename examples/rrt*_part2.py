@@ -208,8 +208,8 @@ def GetEdgeCost(n1, n2, dist_map, use_gvd):
     base_dist = n1.Dist(n2)
     if not use_gvd: return base_dist
     gvd_value = dist_map[n2.y, n2.x] 
-    penalty = 1.0 - (0.8*gvd_value) 
-    return base_dist * penalty
+    penalty = - (0.8*gvd_value) 
+    return base_dist + penalty
 # =====================================================================
 
 def CreateMapFromImage(image_path, scale_percent=75):

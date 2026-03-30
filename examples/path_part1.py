@@ -22,7 +22,7 @@ use_gvd = True
 algorithm = "astar"  # "astar", "best_first", "bfs"
 only_beige = False   
 is_running = False   
-gvdbonus = 1.5
+gvdbonus = 0.1
 
 # ✨ กำหนดจุด Start และ Goal เริ่มต้น
 start_point = (1242, 658)
@@ -162,6 +162,7 @@ def find_path_astar(img, start, end, distance_map, use_gvd, only_beige):
                 g_score[neighbor_state] = tentative_g
                 h = ((nx - end[0])**2 + (ny - end[1])**2)**0.5
                 heapq.heappush(open_set, (tentative_g + h, tentative_g, nx, ny, next_wall, next_safe))
+            print(iterations)
     return None, 0, iterations, 0, 0
 
 # =====================================================================

@@ -258,8 +258,8 @@ def GetEdgeCost(n1, n2, type_map, door_mask, dist_map, use_gvd):
     # 1. คิด Cost พื้นฐาน (บวกลบ GVD ตามที่ติ๊ก)
     if use_gvd:
         gvd_value = dist_map[n2_y, n2_x] 
-        penalty = 1.0 - (gvd_value*0.8) 
-        cost = base_dist * penalty
+        penalty =- (gvd_value*0.8) 
+        cost = base_dist + penalty
     else:
         cost = base_dist
         

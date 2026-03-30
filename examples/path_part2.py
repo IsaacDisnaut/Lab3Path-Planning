@@ -152,7 +152,7 @@ def find_path_astar(img, start, end, distance_map, use_gvd, only_beige):
                 dist_value = distance_map[ny, nx]
                 goal_dist = ((nx - end[0])**2 + (ny - end[1])**2)**0.5
                 if pixel_type == "BEIGE" and goal_dist > 30:
-                    gvd_bonus = -0.8 * dist_value
+                    gvd_bonus = -0.1* dist_value
 
             tentative_g = g + step_cost + penalty + gvd_bonus
             neighbor_state = (nx, ny, next_wall, next_safe)

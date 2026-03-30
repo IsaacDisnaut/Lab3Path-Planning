@@ -171,7 +171,7 @@ def find_path_astar(img, start, end, distance_map, use_gvd, only_beige, d_map):
                 goal_dist = ((nx - end[0])**2 + (ny - end[1])**2)**0.5
                 if goal_dist > 30: 
                     if not d_map[ny, nx]:
-                        gvd_bonus = -0.5 * dist_value
+                        gvd_bonus = -0.8 * dist_value
 
             tentative_g = g + step_cost + penalty + gvd_bonus + door_discount_g
             tentative_g = max(g + 0.1, tentative_g)
@@ -497,31 +497,31 @@ def calculate_and_add_path():
         print(f"Time: {elapsed:.2f} ms | Distance: {dist:.2f}")
         
         filepath = "/home/isaac/fra532-lab3-planning-por-wa/data/datapart3/a*-BFS.txt"
-        # try:
-        #     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        #     with open(filepath, "a", encoding="utf-8") as f:
-        #         f.write(f"[{timestamp}] Run Summary\n")
-        #         f.write(f"Algorithm  : {algorithm.upper()}\n")
-        #         f.write(f"Use GVD    : {use_gvd}\n")
-        #         f.write(f"Only Beige : {only_beige}\n")
+        try:
+            timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            with open(filepath, "a", encoding="utf-8") as f:
+                f.write(f"[{timestamp}] Run Summary\n")
+                f.write(f"Algorithm  : {algorithm.upper()}\n")
+                f.write(f"Use GVD    : {use_gvd}\n")
+                f.write(f"Only Beige : {only_beige}\n")
                 
-        #         # ✨ เพิ่มการบันทึกค่า Pen ทั้ง 3 ค่าลง Text file
-        #         f.write(f"Cross Pen  : {crosspenalty}\n")
-        #         f.write(f"Bldg Pen   : {buildingpenalty}\n")
-        #         f.write(f"Door Pen   : {doorpenalty}\n")
+                # ✨ เพิ่มการบันทึกค่า Pen ทั้ง 3 ค่าลง Text file
+                f.write(f"Cross Pen  : {crosspenalty}\n")
+                f.write(f"Bldg Pen   : {buildingpenalty}\n")
+                f.write(f"Door Pen   : {doorpenalty}\n")
                 
-        #         f.write(f"Cost       : {cost:.2f}\n")
-        #         f.write(f"Iterations : {iters}\n")
-        #         f.write(f"Time       : {elapsed:.2f} ms\n")
-        #         f.write(f"Distance   : {dist:.2f}\n")
+                f.write(f"Cost       : {cost:.2f}\n")
+                f.write(f"Iterations : {iters}\n")
+                f.write(f"Time       : {elapsed:.2f} ms\n")
+                f.write(f"Distance   : {dist:.2f}\n")
                 
-        #         path_str = " -> ".join([f"({p[0]}, {p[1]})" for p in path])
-        #         f.write(f"Path Nodes : {path_str}\n")
+                path_str = " -> ".join([f"({p[0]}, {p[1]})" for p in path])
+                f.write(f"Path Nodes : {path_str}\n")
                 
-        #         f.write("-" * 40 + "\n")
-        #     print("💾 บันทึกผลลัพธ์พร้อมค่า Penalty ลงไฟล์ 'a*-BFS.txt' เรียบร้อยแล้ว")
-        # except Exception as e:
-        #     print(f"❌ ไม่สามารถเขียนไฟล์ได้: {e}")
+                f.write("-" * 40 + "\n")
+            print("💾 บันทึกผลลัพธ์พร้อมค่า Penalty ลงไฟล์ 'a*-BFS.txt' เรียบร้อยแล้ว")
+        except Exception as e:
+            print(f"❌ ไม่สามารถเขียนไฟล์ได้: {e}")
 
     else:
         print(f"\n❌ ไม่พบเส้นทาง (Algo: {algorithm.upper()})")
@@ -638,7 +638,7 @@ cv2.setMouseCallback("Control Panel", control_click_event)
 
 cv2.createTrackbar("Cross Pen", "Control Panel", crosspenalty, 50, on_cross_trackbar)
 cv2.createTrackbar("Bldg Pen", "Control Panel", buildingpenalty, 50, on_bldg_trackbar)
-cv2.createTrackbar("Door Pen", "Control Panel", doorpenalty, 500, on_door_trackbar)
+cv2.createTrackbar("Door Pen", "Control Panel", doorpenalty, 50, on_door_trackbar)
 
 print("\n=== การใช้งานเมาส์และ UI ===")
 print("จุดเริ่มต้น (Start), จุดหมาย (Goal), และประตู (Door) ถูกตั้งค่าเริ่มต้นให้แล้วครับ!")
